@@ -51,10 +51,20 @@ I'm a **MERN Stack Developer** with experience in:
 
 ## 📊 GitHub Stats:
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Sujithrathod&show_icons=true&theme=dark" alt="Sujith Rathod" />
+  <a href="https://github.com/Sujithrathod">
+    <img src="https://github-readme-stats.vercel.app/api?username=Sujithrathod&show_icons=true&theme=dark" alt="Sujith Rathod"
+      style="width: 48%; min-width: 300px; transition: transform 0.3s ease-in-out; border-radius: 8px;" 
+      onmouseover="this.style.transform='scale(1.05)'" 
+      onmouseout="this.style.transform='scale(1)'" />
+  </a>
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujithrathod&layout=compact&theme=dark" alt="Top Langs" />
+  <a href="https://github.com/Sujithrathod">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujithrathod&layout=compact&theme=dark" alt="Top Langs"
+      style="width: 40%; min-width: 300px; transition: transform 0.3s ease-in-out; border-radius: 8px;" 
+      onmouseover="this.style.transform='scale(1.05)'" 
+      onmouseout="this.style.transform='scale(1)'" />
+  </a>
 </p>
 
 ---
