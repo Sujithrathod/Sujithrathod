@@ -50,19 +50,12 @@ I'm a **MERN Stack Developer** with experience in:
 ---
 
 ## 📊 GitHub Stats:
-<p align="center">
-  <a href="https://github.com/Sujithrathod">
-    <img src="https://github-readme-stats.vercel.app/api?username=Sujithrathod&show_icons=true&theme=dark" alt="Sujith Rathod" 
-      style="width: 48%; min-width: 300px; border-radius: 8px;" />
-  </a>
-</p>
-<p align="center">
-  <a href="https://github.com/Sujithrathod">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sujithrathod&layout=compact&theme=dark" alt="Top Langs" 
-      style="width: 40%; min-width: 300px; border-radius: 8px;" />
-  </a>
-</p>
 
+<p><img align="left" src="https://github-readme-stats-two-phi-88.vercel.app/api/top-langs?username=Sujithrathod&show_icons=true&theme=dark&locale=en&layout=compact" alt="Sujith Rathod" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats-two-phi-88.vercel.app/api?username=Sujithrathod&show_icons=true&theme=dark&locale=en&hide=stars,issues" alt="Sujith Rathod" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sujithrathod&theme=dark" alt="Sujith Rathod" /></p>
 ---
 
 ## 🚀 Current Goals:
