@@ -55,7 +55,9 @@ I'm a **MERN Stack Developer** with experience in:
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats-two-phi-88.vercel.app/api?username=Sujithrathod&show_icons=true&theme=dark&locale=en&hide=stars,issues" alt="Sujith Rathod" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Sujithrathod&theme=dark" alt="Sujith Rathod" /></p>
+<p>
+  <img align="center" src="https://streak-stats.demolab.com/?user=Sujithrathod&theme=dark" alt="Sujith Rathod" />
+</p>
 ---
 
 ## 🚀 Current Goals:
