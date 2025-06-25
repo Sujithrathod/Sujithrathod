@@ -15,13 +15,6 @@
 - 💬 Ask me about **React, Node.js, and Express.js**  
 - 📫 How to reach me: [Sujith's Email](mailto:sujithrathodm2004@gmail.com)  
 
----
-
-## 👔 Professional Overview:
-I'm a **MERN Stack Developer** with experience in:
-- ✅ Building **scalable** web applications using **React**, **Node.js**, **Express.js**, and **MongoDB**  
-- ✅ Proficient in **JavaScript**, **Python**, **C++**, **SQL**, and **Java**  
-- ✅ Worked on projects like **Real-Time Location Tracking** and **Todo List Application**  
 
 ---
 
@@ -58,6 +51,13 @@ I'm a **MERN Stack Developer** with experience in:
 <p>
   <img align="center" src="https://streak-stats.demolab.com/?user=Sujithrathod&theme=dark" alt="Sujith Rathod" />
 </p>
+
+###
+
+<img src="https://raw.githubusercontent.com/Sujithrathod/Sujithrathod/output/snake.svg" alt="Snake animation" />
+
+###
+
 ---
 
 ## 🚀 Current Goals:
