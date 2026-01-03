@@ -1,0 +1,185 @@
+<svg width="1200" height="630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shadow Filter -->
+  <defs>
+    <filter id="shadow" x="5" y="5" width="1198" height="628" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+      <feOffset dx="4" dy="4" />
+      <feGaussianBlur stdDeviation="12" />
+      <feComposite in2="hardAlpha" operator="out" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1" />
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1" result="shape" />
+    </filter>
+    
+    <!-- Background Gradients -->
+    <radialGradient id="gradient1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(325.5 680.5) rotate(15.6949) scale(691.274 559.341)">
+      <stop stop-color="#00FFE0" stop-opacity="0.43" />
+      <stop offset="1" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="gradient2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1389 355.5) rotate(141.011) scale(936.808 834.471)">
+      <stop stop-color="#FF006B" stop-opacity="0.43" />
+      <stop offset="1" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="gradient3" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(626 816) rotate(-2.07138) scale(943.598 733.209)">
+      <stop stop-color="#FF00E6" stop-opacity="0.46" />
+      <stop offset="1" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="gradient4" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(-232.837 427.515) rotate(47.2401) scale(1118.59 1176.88)">
+      <stop stop-color="#7F00FF" stop-opacity="0.46" />
+      <stop offset="1" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Logo Glow Gradients -->
+    <radialGradient id="logoGlow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 315) rotate(90) scale(491 910.359)">
+      <stop stop-color="white" stop-opacity="0.31" />
+      <stop offset="1" stop-opacity="0" />
+    </radialGradient>
+    
+    <radialGradient id="logoGlow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 315) rotate(90) scale(235 382.651)">
+      <stop stop-color="white" stop-opacity="0.43" />
+      <stop offset="1" stop-opacity="0" />
+    </radialGradient>
+    
+    <clipPath id="background-clip">
+      <rect x="25" y="25" width="1150" height="580" rx="24" fill="black" />
+    </clipPath>
+  </defs>
+  
+  <!-- Main Background -->
+  <g filter="url(#shadow)">
+    <rect x="25" y="25" width="1150" height="580" rx="24" fill="black" />
+    <g opacity="0.75">
+      <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#gradient1)" />
+      <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#gradient2)" />
+      <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#gradient3)" />
+      <rect x="25" y="25" width="1150" height="580" rx="24" fill="url(#gradient4)" />
+    </g>
+  </g>
+  
+  <!-- Animated Stars -->
+  <g clip-path="url(#background-clip)">
+    <!-- Star 1 -->
+    <circle opacity="0.4" r="2" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="8s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="150; 200" dur="8s" begin="0s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Star 2 -->
+    <circle opacity="0.3" r="1.5" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="6s" begin="1s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="300; 250" dur="6s" begin="1s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Star 3 -->
+    <circle opacity="0.5" r="2.5" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="10s" begin="2s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="500; 600" dur="10s" begin="2s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Star 4 -->
+    <circle opacity="0.35" r="1.8" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="7s" begin="0.5s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="800; 750" dur="7s" begin="0.5s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- Star 5 -->
+    <circle opacity="0.45" r="2.2" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="9s" begin="1.5s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="1000; 1100" dur="9s" begin="1.5s" repeatCount="indefinite" />
+    </circle>
+    
+    <!-- More stars -->
+    <circle opacity="0.25" r="1.3" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="5s" begin="3s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="400; 350" dur="5s" begin="3s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle opacity="0.4" r="1.9" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="11s" begin="0.8s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="700; 800" dur="11s" begin="0.8s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle opacity="0.3" r="1.6" fill="#fff">
+      <animate attributeName="cy" values="630; 0" dur="6.5s" begin="2.5s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="200; 100" dur="6.5s" begin="2.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- Logo Glow -->
+  <g clip-path="url(#background-clip)" opacity="0">
+    <animate attributeName="opacity" values="0;0.3" dur="3s" begin="0.5s" fill="freeze" />
+    <rect x="-156" y="-176" width="1512" height="982" fill="url(#logoGlow1)" fill-opacity="0.41" />
+    <rect x="-156" y="-176" width="1512" height="982" fill="url(#logoGlow2)" />
+  </g>
+  
+  <!-- SUJITH Text -->
+  <g transform="translate(600, 315)">
+    <!-- S -->
+    <path fill="white" transform-origin="0 0" d="M-180 -50 L-100 -50 L-100 -25 L-160 -25 L-160 -5 L-100 -5 L-100 5 L-100 5 L-100 25 L-100 25 L-100 50 L-180 50 L-180 25 L-120 25 L-120 5 L-180 5 L-180 -5 L-160 -5 L-160 -25 L-180 -25 L-180 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="250ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 Z;M-180 -50 L-100 -50 L-100 -30 L-180 -30 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -30 L-180 -50 Z;M-180 -50 L-100 -50 L-100 -30 L-160 -30 L-160 -10 L-100 -10 L-100 10 L-100 10 L-100 10 L-100 10 L-100 10 L-180 10 L-180 -10 L-160 -10 L-160 -30 L-180 -30 L-180 -50 L-180 -50 L-180 -50 L-180 -30 L-180 -50 Z;M-180 -50 L-100 -50 L-100 -30 L-160 -30 L-160 -10 L-100 -10 L-100 10 L-100 30 L-100 50 L-180 50 L-180 30 L-120 30 L-120 10 L-180 10 L-180 -10 L-160 -10 L-160 -30 L-180 -30 Z;M-180 -50 L-100 -50 L-100 -30 L-160 -30 L-160 -10 L-100 -10 L-100 10 L-100 30 L-100 50 L-180 50 L-180 30 L-120 30 L-120 10 L-180 10 L-180 -10 L-160 -10 L-160 -30 L-180 -30 L-180 -50 Z;M-180 -50 L-100 -50 L-100 -30 L-160 -30 L-160 -10 L-100 -10 L-100 10 L-100 30 L-100 50 L-180 50 L-180 30 L-120 30 L-120 10 L-180 10 L-180 -10 L-160 -10 L-160 -30 L-180 -30 L-180 -50 Z" />
+    </path>
+    
+    <!-- U -->
+    <path fill="white" transform-origin="0 0" d="M-70 -50 L-70 30 C-70 40 -60 50 -50 50 L-30 50 C-20 50 -10 40 -10 30 L-10 -50 L-30 -50 L-30 30 C-30 35 -35 40 -40 40 C-45 40 -50 35 -50 30 L-50 -50 L-70 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="350ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 L-70 -50 Z;M-70 -50 L-70 30 L-70 30 L-70 30 L-70 30 L-70 30 L-70 30 L-70 30 L-70 30 L-70 30 L-70 -50 L-70 -50 L-70 -50 Z;M-70 -50 L-70 30 C-70 40 -60 50 -50 50 L-30 50 C-20 50 -10 40 -10 30 L-10 -50 L-10 -50 L-10 -50 L-10 -50 L-10 -50 L-10 -50 L-70 -50 L-70 -50 Z;M-70 -50 L-70 30 C-70 40 -60 50 -50 50 L-30 50 C-20 50 -10 40 -10 30 L-10 -50 L-30 -50 L-30 30 C-30 35 -35 40 -40 40 C-45 40 -50 35 -50 30 L-50 -50 L-70 -50 Z;M-70 -50 L-70 30 C-70 40 -60 50 -50 50 L-30 50 C-20 50 -10 40 -10 30 L-10 -50 L-30 -50 L-30 30 C-30 35 -35 40 -40 40 C-45 40 -50 35 -50 30 L-50 -50 L-70 -50 Z;M-70 -50 L-70 30 C-70 40 -60 50 -50 50 L-30 50 C-20 50 -10 40 -10 30 L-10 -50 L-30 -50 L-30 30 C-30 35 -35 40 -40 40 C-45 40 -50 35 -50 30 L-50 -50 L-70 -50 Z" />
+    </path>
+    
+    <!-- J -->
+    <path fill="white" transform-origin="0 0" d="M15 -50 L65 -50 L65 25 C65 40 60 50 50 50 L40 50 C30 50 15 40 15 25 L15 5 L40 5 L40 25 C40 32.5 42.5 40 42.5 40 C42.5 40 45 32.5 45 25 L45 -50 L15 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="450ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 L15 -50 Z;M15 -50 L65 -50 L65 25 L65 25 L65 25 L65 25 L65 25 L65 25 L65 25 L65 25 L65 25 L65 25 L45 -50 L15 -50 Z;M15 -50 L65 -50 L65 25 C65 40 60 50 50 50 L40 50 C30 50 15 40 15 25 L15 5 L40 5 L40 25 C40 32.5 42.5 40 42.5 40 C42.5 40 45 32.5 45 25 L45 -50 L15 -50 Z;M15 -50 L65 -50 L65 25 C65 40 60 50 50 50 L40 50 C30 50 15 40 15 25 L15 5 L40 5 L40 25 C40 32.5 42.5 40 42.5 40 C42.5 40 45 32.5 45 25 L45 -50 L15 -50 Z;M15 -50 L65 -50 L65 25 C65 40 60 50 50 50 L40 50 C30 50 15 40 15 25 L15 5 L40 5 L40 25 C40 32.5 42.5 40 42.5 40 C42.5 40 45 32.5 45 25 L45 -50 L15 -50 Z;M15 -50 L65 -50 L65 25 C65 40 60 50 50 50 L40 50 C30 50 15 40 15 25 L15 5 L40 5 L40 25 C40 32.5 42.5 40 42.5 40 C42.5 40 45 32.5 45 25 L45 -50 L15 -50 Z" />
+    </path>
+    
+    <!-- I -->
+    <path fill="white" transform-origin="0 0" d="M85 -50 L85 -30 L95 -30 L95 30 L85 30 L85 50 L125 50 L125 30 L115 30 L115 -30 L125 -30 L125 -50 L85 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="550ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 L85 -50 Z;M85 -50 L85 -30 L95 -30 L95 -30 L95 -30 L95 -30 L95 -30 L95 -30 L95 -30 L95 -30 L125 -30 L125 -50 L85 -50 Z;M85 -50 L85 -30 L95 -30 L95 30 L85 30 L85 30 L85 30 L85 30 L115 30 L115 -30 L125 -30 L125 -50 L85 -50 Z;M85 -50 L85 -30 L95 -30 L95 30 L85 30 L85 50 L125 50 L125 30 L115 30 L115 -30 L125 -30 L125 -50 L85 -50 Z;M85 -50 L85 -30 L95 -30 L95 30 L85 30 L85 50 L125 50 L125 30 L115 30 L115 -30 L125 -30 L125 -50 L85 -50 Z;M85 -50 L85 -30 L95 -30 L95 30 L85 30 L85 50 L125 50 L125 30 L115 30 L115 -30 L125 -30 L125 -50 L85 -50 Z" />
+    </path>
+    
+    <!-- T -->
+    <path fill="white" transform-origin="0 0" d="M145 -50 L145 -30 L155 -30 L155 50 L175 50 L175 -30 L185 -30 L185 -50 L145 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="650ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M145 -50 L145 -50 L145 -50 L145 -50 L145 -50 L145 -50 L145 -50 L145 -50 L145 -50 Z;M145 -50 L145 -30 L155 -30 L155 -30 L155 -30 L175 -30 L185 -30 L185 -50 L145 -50 Z;M145 -50 L145 -30 L155 -30 L155 50 L175 50 L175 -30 L185 -30 L185 -50 L145 -50 Z;M145 -50 L145 -30 L155 -30 L155 50 L175 50 L175 -30 L185 -30 L185 -50 L145 -50 Z;M145 -50 L145 -30 L155 -30 L155 50 L175 50 L175 -30 L185 -30 L185 -50 L145 -50 Z;M145 -50 L145 -30 L155 -30 L155 50 L175 50 L175 -30 L185 -30 L185 -50 L145 -50 Z" />
+    </path>
+    
+    <!-- H -->
+    <path fill="white" transform-origin="0 0" d="M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 -50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="750ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 -50 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 10 L245 10 L245 10 L245 10 L225 -10 L225 -50 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 -50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 -50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z" />
+    </path>
+    
+    <!-- Glow effect on text -->
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" begin="3s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- Additional floating particles -->
+  <g clip-path="url(#background-clip)">
+    <circle opacity="0.2" r="1.2" fill="#00FFE0">
+      <animate attributeName="cy" values="630; 0" dur="12s" begin="4s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="600; 550" dur="12s" begin="4s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle opacity="0.3" r="1.5" fill="#FF006B">
+      <animate attributeName="cy" values="630; 0" dur="9s" begin="2.5s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="350; 450" dur="9s" begin="2.5s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle opacity="0.25" r="1.8" fill="#7F00FF">
+      <animate attributeName="cy" values="630; 0" dur="7.5s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="900; 850" dur="7.5s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+    
+    <circle opacity="0.4" r="1.1" fill="#FF00E6">
+      <animate attributeName="cy" values="630; 0" dur="11s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="cx" values="250; 300" dur="11s" begin="3.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>
+
+
