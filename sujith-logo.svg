@@ -117,7 +117,7 @@
   </g>
   
   <!-- SUJITH Text -->
-  <g transform="translate(600, 315)">
+  <g transform="translate(550, 315)">
     <!-- S -->
     <path fill="white" transform-origin="0 0" d="M-180 -50 L-100 -50 L-100 -25 L-160 -25 L-160 -5 L-100 -5 L-100 5 L-100 5 L-100 25 L-100 25 L-100 50 L-180 50 L-180 25 L-120 25 L-120 5 L-180 5 L-180 -5 L-160 -5 L-160 -25 L-180 -25 L-180 -50 Z">
       <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
