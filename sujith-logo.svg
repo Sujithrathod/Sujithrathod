@@ -116,8 +116,8 @@
     <rect x="-156" y="-176" width="1512" height="982" fill="url(#logoGlow2)" />
   </g>
   
-  <!-- SUJITH Text -->
-  <g transform="translate(600, 315)">
+  <!-- SUJITH Text (First Line) -->
+  <g transform="translate(550, 250)">
     <!-- S -->
     <path fill="white" transform-origin="0 0" d="M-180 -50 L-100 -50 L-100 -25 L-160 -25 L-160 -5 L-100 -5 L-100 5 L-100 5 L-100 25 L-100 25 L-100 50 L-180 50 L-180 25 L-120 25 L-120 5 L-180 5 L-180 -5 L-160 -5 L-160 -25 L-180 -25 L-180 -50 Z">
       <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
@@ -152,6 +152,48 @@
     <path fill="white" transform-origin="0 0" d="M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 -50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z">
       <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
       <animate attributeName="d" begin="750ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 50 L225 -50 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 10 L245 10 L245 10 L245 10 L225 -10 L225 -50 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 -50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z;M205 -50 L205 50 L225 50 L225 10 L245 10 L245 50 L265 50 L265 -50 L245 -50 L245 -10 L225 -10 L225 -50 L205 -50 Z" />
+    </path>
+    
+    <!-- Glow effect on text -->
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" begin="3s" repeatCount="indefinite" />
+  </g>
+  
+  <!-- RATHOD Text (Second Line) -->
+  <g transform="translate(550, 400)">
+    <!-- R -->
+    <path fill="white" transform-origin="0 0" d="M-180 -50 L-110 -50 L-110 -30 C-110 -20 -118 -10 -126 -10 L-143 -10 L-110 50 L-133 50 L-160 -10 L-160 -30 L-126 -30 C-122 -30 -118 -25 -118 -20 C-118 -15 -122 -10 -126 -10 L-160 -10 L-160 50 L-180 50 L-180 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="850ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 Z;M-180 -50 L-110 -50 L-110 -30 L-180 -30 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 L-180 -50 Z;M-180 -50 L-110 -50 L-110 -30 C-110 -20 -118 -10 -126 -10 L-143 -10 L-143 -10 L-143 -10 L-143 -10 L-160 -10 L-160 -30 L-126 -30 C-122 -30 -118 -25 -118 -20 C-118 -15 -122 -10 -126 -10 L-160 -10 L-160 -10 L-180 -10 L-180 -50 Z;M-180 -50 L-110 -50 L-110 -30 C-110 -20 -118 -10 -126 -10 L-143 -10 L-110 50 L-133 50 L-160 -10 L-160 -30 L-126 -30 C-122 -30 -118 -25 -118 -20 C-118 -15 -122 -10 -126 -10 L-160 -10 L-160 50 L-180 50 L-180 -50 Z;M-180 -50 L-110 -50 L-110 -30 C-110 -20 -118 -10 -126 -10 L-143 -10 L-110 50 L-133 50 L-160 -10 L-160 -30 L-126 -30 C-122 -30 -118 -25 -118 -20 C-118 -15 -122 -10 -126 -10 L-160 -10 L-160 50 L-180 50 L-180 -50 Z;M-180 -50 L-110 -50 L-110 -30 C-110 -20 -118 -10 -126 -10 L-143 -10 L-110 50 L-133 50 L-160 -10 L-160 -30 L-126 -30 C-122 -30 -118 -25 -118 -20 C-118 -15 -122 -10 -126 -10 L-160 -10 L-160 50 L-180 50 L-180 -50 Z" />
+    </path>
+    
+    <!-- A (Inverted) -->
+    <path fill="white" transform-origin="0 0" d="M-90 50 L-60 -50 L-40 -50 L-10 50 L-30 50 L-35 30 L-65 30 L-70 50 L-90 50 Z M-62 10 L-38 10 L-50 -25 L-62 10 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="950ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M-90 50 L-90 50 L-90 50 L-90 50 L-90 50 L-90 50 L-90 50 L-90 50 L-90 50 Z M-90 50 L-90 50 L-90 50 L-90 50 Z;M-90 50 L-60 -50 L-40 -50 L-40 -50 L-40 -50 L-40 -50 L-40 -50 L-70 50 L-90 50 Z M-90 50 L-90 50 L-90 50 L-90 50 Z;M-90 50 L-60 -50 L-40 -50 L-10 50 L-30 50 L-35 30 L-65 30 L-70 50 L-90 50 Z M-62 10 L-38 10 L-50 -25 L-62 10 Z;M-90 50 L-60 -50 L-40 -50 L-10 50 L-30 50 L-35 30 L-65 30 L-70 50 L-90 50 Z M-62 10 L-38 10 L-50 -25 L-62 10 Z;M-90 50 L-60 -50 L-40 -50 L-10 50 L-30 50 L-35 30 L-65 30 L-70 50 L-90 50 Z M-62 10 L-38 10 L-50 -25 L-62 10 Z;M-90 50 L-60 -50 L-40 -50 L-10 50 L-30 50 L-35 30 L-65 30 L-70 50 L-90 50 Z M-62 10 L-38 10 L-50 -25 L-62 10 Z" />
+    </path>
+    
+    <!-- T -->
+    <path fill="white" transform-origin="0 0" d="M5 -50 L5 -30 L15 -30 L15 50 L35 50 L35 -30 L45 -30 L45 -50 L5 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="1050ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M5 -50 L5 -50 L5 -50 L5 -50 L5 -50 L5 -50 L5 -50 L5 -50 L5 -50 Z;M5 -50 L5 -30 L15 -30 L15 -30 L15 -30 L35 -30 L45 -30 L45 -50 L5 -50 Z;M5 -50 L5 -30 L15 -30 L15 50 L35 50 L35 -30 L45 -30 L45 -50 L5 -50 Z;M5 -50 L5 -30 L15 -30 L15 50 L35 50 L35 -30 L45 -30 L45 -50 L5 -50 Z;M5 -50 L5 -30 L15 -30 L15 50 L35 50 L35 -30 L45 -30 L45 -50 L5 -50 Z;M5 -50 L5 -30 L15 -30 L15 50 L35 50 L35 -30 L45 -30 L45 -50 L5 -50 Z" />
+    </path>
+    
+    <!-- H -->
+    <path fill="white" transform-origin="0 0" d="M65 -50 L65 50 L85 50 L85 10 L105 10 L105 50 L125 50 L125 -50 L105 -50 L105 -10 L85 -10 L85 -50 L65 -50 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="1150ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 L65 -50 Z;M65 -50 L65 50 L85 50 L85 50 L85 50 L85 50 L85 50 L85 50 L85 50 L85 50 L85 -50 L85 -50 L65 -50 Z;M65 -50 L65 50 L85 50 L85 10 L105 10 L105 10 L105 10 L105 10 L105 10 L85 -10 L85 -50 L85 -50 L65 -50 Z;M65 -50 L65 50 L85 50 L85 10 L105 10 L105 50 L125 50 L125 50 L105 -50 L105 -10 L85 -10 L85 -50 L65 -50 Z;M65 -50 L65 50 L85 50 L85 10 L105 10 L105 50 L125 50 L125 -50 L105 -50 L105 -10 L85 -10 L85 -50 L65 -50 Z;M65 -50 L65 50 L85 50 L85 10 L105 10 L105 50 L125 50 L125 -50 L105 -50 L105 -10 L85 -10 L85 -50 L65 -50 Z" />
+    </path>
+    
+    <!-- O -->
+    <path fill="white" transform-origin="0 0" d="M145 -50 L145 50 L205 50 L205 -50 L145 -50 Z M162 -30 L188 -30 L188 30 L162 30 L162 -30 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="1250ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M145 -50 L145 -50 L145 -50 L145 -50 L145 -50 Z M145 -50 L145 -50 L145 -50 L145 -50 L145 -50 Z;M145 -50 L145 50 L205 50 L205 -50 L145 -50 Z M162 -30 L162 -30 L162 -30 L162 -30 L162 -30 Z;M145 -50 L145 50 L205 50 L205 -50 L145 -50 Z M162 -30 L188 -30 L188 30 L162 30 L162 -30 Z;M145 -50 L145 50 L205 50 L205 -50 L145 -50 Z M162 -30 L188 -30 L188 30 L162 30 L162 -30 Z;M145 -50 L145 50 L205 50 L205 -50 L145 -50 Z M162 -30 L188 -30 L188 30 L162 30 L162 -30 Z;M145 -50 L145 50 L205 50 L205 -50 L145 -50 Z M162 -30 L188 -30 L188 30 L162 30 L162 -30 Z" />
+    </path>
+    
+    <!-- D -->
+    <path fill="white" transform-origin="0 0" d="M220 -50 L220 50 L265 50 C277 50 282 40 282 30 L282 -30 C282 -40 277 -50 265 -50 L220 -50 Z M238 -30 L265 -30 C269 -30 273 -25 273 -20 L273 20 C273 25 269 30 265 30 L238 30 L238 -30 Z">
+      <animateTransform attributeName="transform" from="0 0" to="1 1" begin="0s" dur="2.5s" fill="freeze" type="scale" calcMode="spline" keySplines="0.16, 1, 0.3, 1" keyTimes="0;1" />
+      <animate attributeName="d" begin="1350ms" dur="750ms" fill="freeze" calcMode="spline" keySplines="0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1;0.87 0 0.13 1" keyTimes="0;0.2;0.4;0.6;0.8;1" values="M220 -50 L220 -50 L220 -50 L220 -50 L220 -50 L220 -50 L220 -50 L220 -50 Z M220 -50 L220 -50 L220 -50 L220 -50 L220 -50 L220 -50 L220 -50 L220 -50 Z;M220 -50 L220 50 L265 50 C277 50 282 40 282 30 L282 -30 C282 -40 277 -50 265 -50 L220 -50 Z M238 -30 L238 -30 L238 -30 L238 -30 L238 -30 Z;M220 -50 L220 50 L265 50 C277 50 282 40 282 30 L282 -30 C282 -40 277 -50 265 -50 L220 -50 Z M238 -30 L265 -30 C269 -30 273 -25 273 -20 L273 20 C273 25 269 30 265 30 L238 30 L238 -30 Z;M220 -50 L220 50 L265 50 C277 50 282 40 282 30 L282 -30 C282 -40 277 -50 265 -50 L220 -50 Z M238 -30 L265 -30 C269 -30 273 -25 273 -20 L273 20 C273 25 269 30 265 30 L238 30 L238 -30 Z;M220 -50 L220 50 L265 50 C277 50 282 40 282 30 L282 -30 C282 -40 277 -50 265 -50 L220 -50 Z M238 -30 L265 -30 C269 -30 273 -25 273 -20 L273 20 C273 25 269 30 265 30 L238 30 L238 -30 Z;M220 -50 L220 50 L265 50 C277 50 282 40 282 30 L282 -30 C282 -40 277 -50 265 -50 L220 -50 Z M238 -30 L265 -30 C269 -30 273 -25 273 -20 L273 20 C273 25 269 30 265 30 L238 30 L238 -30 Z" />
     </path>
     
     <!-- Glow effect on text -->
